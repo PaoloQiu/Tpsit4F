@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 #define DIM 5//Definisco un variabile di dimensione 5 così dopo nella creazione delll'array posso infilare
 //direttamento questo valore
-
+//NB= Per la pipe la Read=0, Write=1 e Eseguo=2
 int main(int argc, char *argv[])
 {
     int p;
