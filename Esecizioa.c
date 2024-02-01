@@ -1,4 +1,4 @@
-//Esercizio svolto in classe;
+//Esercizio svolto con file e fork;
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
