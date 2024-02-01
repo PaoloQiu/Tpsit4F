@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
     int status;
     int fd[2];
     int array[DIM];
+    p=fork();
     if (pipe(fd) == -1)
     {
         printf("Errore nella creazione del pipe\n");
         exit(-1);
     }
-    p = fork();
     if (p < 0)
     {
         printf("Errore nella generazione figlio\n");
